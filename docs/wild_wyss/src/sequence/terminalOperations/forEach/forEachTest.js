@@ -1,7 +1,7 @@
 import { addToTestingTable, TESTS } from "../../util/testingTable.js";
 import { TestSuite }                from "../../../test/test.js";
 import { forEach$ }                 from "./forEach.js";
-import { arrayEq }                  from "../../../../../../docs/src/kolibri/util/arrayFunctions.js";
+import { arrayEq }                  from "../../../../../src/kolibri/util/arrayFunctions.js";
 import { nil }                      from "../../constructors/nil/nil.js";
 import {
   createTestConfig,

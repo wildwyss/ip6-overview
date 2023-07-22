@@ -1,5 +1,5 @@
 import * as _                from "../../sequence.js";
-import { dom }               from "../../../../../../docs/src/kolibri/util/dom.js";
+import { dom }               from "../../../../../src/kolibri/util/dom.js";
 import { sequenceProjector } from "../../projector/sequenceProjector.js";
 import {
   AngleSequence,

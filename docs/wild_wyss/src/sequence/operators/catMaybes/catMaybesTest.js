@@ -1,6 +1,6 @@
 import { addToTestingTable, TESTS }     from "../../util/testingTable.js";
 import { TestSuite }                    from "../../../test/test.js";
-import { arrayEq }                      from "../../../../../../docs/src/kolibri/util/arrayFunctions.js";
+import { arrayEq }                      from "../../../../../src/kolibri/util/arrayFunctions.js";
 import { Just, Nothing }                from "../../../stdlib/maybe.js";
 import { createTestConfig }             from "../../util/testUtil.js";
 import { toMonadicIterable }            from "../../util/sequenceUtil/toMonadicIterable.js";

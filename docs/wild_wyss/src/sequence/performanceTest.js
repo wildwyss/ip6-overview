@@ -1,4 +1,4 @@
-import { TestSuite } from "../../../../docs/src/kolibri/util/test.js";
+import { TestSuite } from "../../../src/kolibri/util/test.js";
 import {
   cons,
   reduce$,

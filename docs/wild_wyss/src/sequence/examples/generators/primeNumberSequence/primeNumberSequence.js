@@ -1,7 +1,7 @@
 import { Just, Nothing }         from "../../../../../../../docs/src/kolibri/stdlib.js";
 import { createMonadicSequence } from "../../../util/sequenceUtil/createMonadicSequence.js";
 import { choiceMaybe }           from "../../../../stdlib/stdlib.js";
-import { uncurry }               from "../../../../../../../docs/src/kolibri/lambda/church.js";
+import { uncurry }               from "../../../../../../src/kolibri/lambda/church.js";
 import { iteratorOf }            from "../../../util/sequenceUtil/iteratorOf.js";
 import {
   Sequence,

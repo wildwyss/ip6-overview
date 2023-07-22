@@ -1,6 +1,6 @@
 import { TestSuite         }             from "../../../test/test.js";
 import { addToTestingTable }             from "../../util/testingTable.js";
-import { arrayEq }                       from "../../../../../../docs/src/kolibri/util/arrayFunctions.js";
+import { arrayEq }                       from "../../../../../src/kolibri/util/arrayFunctions.js";
 import { pipe, map, rejectAll, reduce$ } from "../../sequence.js";
 import {
   createTestConfig,

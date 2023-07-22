@@ -1,5 +1,5 @@
-import { total } from "../../docs/src/kolibri/util/test.js";
-import { versionInfo } from "../../docs/src/kolibri/version.js";
+import { total } from "../src/kolibri/util/test.js";
+import { versionInfo } from "../src/kolibri/version.js";
 
 import "./src/sequence/performanceTest.js"
 

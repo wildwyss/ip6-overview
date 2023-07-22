@@ -1,7 +1,7 @@
 import { TestSuite }        from "../../../test/test.js";
 import { createTestConfig } from "../../util/testUtil.js";
 import { repeat, take }     from "../../sequence.js";
-import { arrayEq }          from "../../../../../../docs/src/kolibri/util/arrayFunctions.js";
+import { arrayEq }          from "../../../../../src/kolibri/util/arrayFunctions.js";
 import {
   addToTestingTable,
   TESTS

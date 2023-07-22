@@ -3,11 +3,11 @@
  * The test "framework", exports the Suite function plus a total of how many assertions have been tested
  */
 
-import {accentColor, okColor} from "../../../../docs/src/kolibri/style/kolibriStyle.js";
+import {accentColor, okColor} from "../../../src/kolibri/style/kolibriStyle.js";
 import {id, Tuple} from "../../../../docs/src/kolibri/stdlib.js"
-import {Observable} from "../../../../docs/src/kolibri/observable.js"
-import {dom} from "../../../../docs/src/kolibri/util/dom.js"
-import {LoggerFactory} from "../../../../docs/src/kolibri/logger/loggerFactory.js";
+import {Observable} from "../../../src/kolibri/observable.js"
+import {dom} from "../../../src/kolibri/util/dom.js"
+import {LoggerFactory} from "../../../src/kolibri/logger/loggerFactory.js";
 import {
     addToAppenderList,
     getLoggingLevel,
@@ -15,11 +15,11 @@ import {
     setLoggingLevel,
     setLoggingContext,
     setMessageFormatter,
-} from "../../../../docs/src/kolibri/logger/logging.js";
+} from "../../../src/kolibri/logger/logging.js";
 import {
   LOG_DEBUG,
-} from "../../../../docs/src/kolibri/logger/logLevel.js";
-import {Appender} from "../../../../docs/src/kolibri/logger/appender/consoleAppender.js";
+} from "../../../src/kolibri/logger/logLevel.js";
+import {Appender} from "../../../src/kolibri/logger/appender/consoleAppender.js";
 
 export { TestSuite, total, asyncTest }
 

@@ -1,4 +1,4 @@
-import { dom }               from "../../../../../../docs/src/kolibri/util/dom.js";
+import { dom }               from "../../../../../src/kolibri/util/dom.js";
 import { sequenceProjector } from "../../projector/sequenceProjector.js";
 
 export { FizzBuzzView }
@@ -92,7 +92,7 @@ const ruleTextProjector = rule => {
  * @returns { HTMLElement }
  */
 const ruleProjector = rule => {
-  const [container]= dom(`<div class="rulesGrid"></div>`)
+  const [container]= dom(`<div class="rulesGrid"></div>`);
   container.append(
     ruleNrProjector(rule),
     ruleTextProjector(rule)

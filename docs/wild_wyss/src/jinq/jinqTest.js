@@ -1,7 +1,7 @@
 import { TestSuite }     from "../test/test.js";
 import { from }          from "./jinq.js";
 import { Range }         from "../sequence/sequence.js";
-import { arrayEq }       from "../../../../docs/src/kolibri/util/arrayFunctions.js";
+import { arrayEq }       from "../../../src/kolibri/util/arrayFunctions.js";
 import { Just, Nothing } from "../stdlib/maybe.js"
 import { JsonMonad }     from "../json/jsonMonad.js";
 

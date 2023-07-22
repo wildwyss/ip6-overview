@@ -1,5 +1,5 @@
 import {total} from "../../../test/test.js";
-import {versionInfo} from "../../../../../../docs/src/kolibri/version.js";
+import {versionInfo} from "../../../../../src/kolibri/version.js";
 
 
 import "./tictactoeTest.js";

@@ -1,6 +1,6 @@
 import { Sequence, nil, PureSequence } from "../sequence.js";
 import { SequencePrototype }           from "./sequenceUtil/sequencePrototype.js";
-import { arrayEq }                     from "../../../../../docs/src/kolibri/util/arrayFunctions.js";
+import { arrayEq }                     from "../../../../src/kolibri/util/arrayFunctions.js";
 import { Just, Nothing }               from "../../stdlib/maybe.js";
 
 export {

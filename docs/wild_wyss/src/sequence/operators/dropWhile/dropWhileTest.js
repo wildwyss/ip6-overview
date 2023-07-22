@@ -1,7 +1,7 @@
 import { addToTestingTable } from "../../util/testingTable.js";
 import { TestSuite }         from "../../../test/test.js";
 import { dropWhile, nil }    from "../../sequence.js";
-import { arrayEq }           from "../../../../../../docs/src/kolibri/util/arrayFunctions.js";
+import { arrayEq }           from "../../../../../src/kolibri/util/arrayFunctions.js";
 import {
   createTestConfig,
   newSequence,

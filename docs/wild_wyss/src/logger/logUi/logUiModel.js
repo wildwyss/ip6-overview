@@ -1,7 +1,7 @@
 export { LogUiModel }
 
 import { Appender }     from "../appender/observableAppender.js";
-import { Observable }   from "../../../../../docs/src/kolibri/observable.js";
+import { Observable }   from "../../../../src/kolibri/observable.js";
 import { filter }       from "../../../../p6_brodwolf_andermatt/src/stack/stack.js";
 import { Pair }         from "../../../../../docs/src/kolibri/stdlib.js"
 import {

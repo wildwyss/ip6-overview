@@ -1,4 +1,4 @@
-import { Left, Right } from "../../../../docs/src/kolibri/lambda/church.js";
+import { Left, Right } from "../../../src/kolibri/lambda/church.js";
 
 export { Nothing, Just, MaybePrototype }
 

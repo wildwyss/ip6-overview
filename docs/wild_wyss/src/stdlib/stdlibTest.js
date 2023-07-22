@@ -1,5 +1,5 @@
 import { TestSuite }              from "../test/test.js";
-import { arrayEq }                from "../../../../docs/src/kolibri/util/arrayFunctions.js";
+import { arrayEq }                from "../../../src/kolibri/util/arrayFunctions.js";
 import { Just, Nothing }          from "../../../../docs/src/kolibri/stdlib.js";
 import { catMaybes, choiceMaybe } from "./stdlib.js";
 
@@ -59,7 +59,7 @@ iteratorSuite.add("test associativity: choiceMaybe", assert => {
   // When
   // choice must be associative
   const case1 = choiceMaybe(choiceMaybe(just)(just2))(just3);
-  const case2 = choiceMaybe(just)(choiceMaybe((just2)(just3)));
+  const case2 = choiceMaybe(just)(choiceMaybe(just2(just3)));
 
   // Then
   assert.is(case1, case2);

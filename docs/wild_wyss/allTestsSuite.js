@@ -1,5 +1,5 @@
 import { total }       from "./src/test/test.js";
-import { versionInfo } from "../../docs/src/kolibri/version.js";
+import { versionInfo } from "../src/kolibri/version.js";
 
 // logger
 import "./src/logger/loggerTest.js";

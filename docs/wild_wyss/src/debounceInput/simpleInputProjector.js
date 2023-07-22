@@ -17,7 +17,7 @@ import {
     CHANGE, dom, INPUT, TIME, CHECKBOX
 }                                  from "./dom.js";
 import { timeStringToMinutes,
-         totalMinutesToTimeString} from "../../../../docs/src/kolibri/projector/projectorUtils.js";
+         totalMinutesToTimeString} from "../../../src/kolibri/projector/projectorUtils.js";
 
 export { projectInstantInput, projectChangeInput, projectDebounceInput }
 
@@ -44,12 +44,12 @@ let counter = 0;
  * @type { (eventType:EventTypeString) => InputProjector<T> }
  * @template T
  */
-const projectInput = (eventType) => (formClassName, inputController, timeout = 0) => {
+const projectInput = eventType => (formClassName, inputController, timeout = 0) => {
     if( ! inputController) {
         console.error("no inputController in input projector."); // be defensive
         return;
     }
-    const id = formClassName + "-id-" + (counter++);
+    const id = formClassName + "-id-" + counter++;
     // create view
     const elements = dom(`
         <label for="${id}"></label>

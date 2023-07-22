@@ -1,6 +1,6 @@
 import { TestSuite }           from "../../../../test/test.js";
 import { createTestConfig }    from "../../../util/testUtil.js";
-import { arrayEq }             from "../../../../../../../docs/src/kolibri/util/arrayFunctions.js";
+import { arrayEq }             from "../../../../../../src/kolibri/util/arrayFunctions.js";
 import { take }                from "../../../operators/take/take.js";
 import { PrimeNumberSequence } from "./primeNumberSequence.js";
 import {

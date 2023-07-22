@@ -12,7 +12,7 @@ import {
   treeMap
 } from "./tictactoe.js";
 import {Range, map, show, zip, forEach$} from "../../../sequence/sequence.js";
-import {arrayEq} from "../../../../../../docs/src/kolibri/util/arrayFunctions.js";
+import {arrayEq} from "../../../../../src/kolibri/util/arrayFunctions.js";
 import {iteratorOf} from "../../util/sequenceUtil/iteratorOf.js";
 import {Pair} from "../../../stdlib/pair.js";
 

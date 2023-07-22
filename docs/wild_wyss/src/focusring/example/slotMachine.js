@@ -1,6 +1,6 @@
 import { FocusRing }  from "../focusRing.js";
 import { pipe, map }  from "../../sequence/sequence.js";
-import { Observable } from "../../../../../docs/src/kolibri/observable.js"
+import { Observable } from "../../../../src/kolibri/observable.js"
 import { Range }      from "../../sequence/sequence.js";
 
 export { SlotMachineController, ROTATION_SPEED }

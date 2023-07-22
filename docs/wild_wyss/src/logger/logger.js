@@ -6,7 +6,7 @@ import {
   toChurchBoolean,
 } from "./lamdaCalculus.js";
 
-import { removeItem } from "../../../../docs/src/kolibri/util/arrayFunctions.js";
+import { removeItem } from "../../../src/kolibri/util/arrayFunctions.js";
 
 export {
   LOG_TRACE,
