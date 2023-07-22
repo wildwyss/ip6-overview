@@ -1,6 +1,6 @@
 import { addToTestingTable, TESTS } from "../../util/testingTable.js";
 import { TestSuite }                from "../../../test/test.js";
-import { Pair, fst, snd }           from "../../../../../../docs/src/kolibri/stdlib.js";
+import { Pair, fst, snd }           from "../../../../../src/kolibri/stdlib.js";
 import { Range }                    from "../../sequence.js";
 import { uncons }                   from "./uncons.js";
 import { arrayEq }                  from "../../../../../src/kolibri/util/arrayFunctions.js";

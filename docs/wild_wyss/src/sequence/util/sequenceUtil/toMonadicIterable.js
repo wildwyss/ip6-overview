@@ -1,5 +1,5 @@
 import { map } from "../../operators/map/map.js"
-import { id }  from "../../../../../../docs/src/kolibri/stdlib.js"
+import { id }  from "../../../../../src/kolibri/stdlib.js"
 
 export { toMonadicIterable }
 

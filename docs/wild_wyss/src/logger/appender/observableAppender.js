@@ -1,6 +1,6 @@
 export { Appender }
 
-import { Pair }                   from "../../../../../docs/src/kolibri/stdlib.js"
+import { Pair }                   from "../../../../src/kolibri/stdlib.js"
 import { Observable }             from "../../../../src/kolibri/observable.js";
 import { emptyStack, push, size } from "../../../../p6_brodwolf_andermatt/src/stack/stack.js";
 import {

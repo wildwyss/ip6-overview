@@ -1,6 +1,6 @@
 import { addToTestingTable } from "../../util/testingTable.js";
 import { TestSuite }         from "../../../test/test.js";
-import { Pair, fst, snd }    from "../../../../../../docs/src/kolibri/stdlib.js";
+import { Pair, fst, snd }    from "../../../../../src/kolibri/stdlib.js";
 import { zip, nil }          from "../../sequence.js"
 import {
   createTestConfig,

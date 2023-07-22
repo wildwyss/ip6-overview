@@ -1,4 +1,4 @@
-import { Pair, snd, fst } from "../../../../docs/src/kolibri/stdlib.js"
+import { Pair, snd, fst } from "../../../src/kolibri/stdlib.js"
 import {
   id, n0, n1, n2, n3, n4, n5, n9,
   LazyIf, Else, Then, and, leq,

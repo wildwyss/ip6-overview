@@ -4,7 +4,7 @@
  */
 
 import {accentColor, okColor} from "../../../src/kolibri/style/kolibriStyle.js";
-import {id, Tuple} from "../../../../docs/src/kolibri/stdlib.js"
+import {id, Tuple} from "../../../src/kolibri/stdlib.js"
 import {Observable} from "../../../src/kolibri/observable.js"
 import {dom} from "../../../src/kolibri/util/dom.js"
 import {LoggerFactory} from "../../../src/kolibri/logger/loggerFactory.js";

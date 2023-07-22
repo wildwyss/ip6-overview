@@ -1,6 +1,6 @@
 import { TestSuite }              from "../test/test.js";
 import { arrayEq }                from "../../../src/kolibri/util/arrayFunctions.js";
-import { Just, Nothing }          from "../../../../docs/src/kolibri/stdlib.js";
+import { Just, Nothing }          from "../../../src/kolibri/stdlib.js";
 import { catMaybes, choiceMaybe } from "./stdlib.js";
 
 const iteratorSuite = TestSuite("stdlib");

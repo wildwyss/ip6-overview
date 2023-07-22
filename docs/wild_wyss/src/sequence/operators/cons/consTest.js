@@ -1,7 +1,7 @@
 import { addToTestingTable } from "../../util/testingTable.js";
 import { TestSuite }         from "../../../test/test.js";
 import { cons, uncons }      from "../../sequence.js"
-import { snd  }              from "../../../../../../docs/src/kolibri/stdlib.js"
+import { snd  }              from "../../../../../src/kolibri/stdlib.js"
 import {
   createTestConfig ,
   newSequence,

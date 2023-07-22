@@ -5,7 +5,7 @@ export {
 }
 
 import { dom }        from "../../../../src/kolibri/util/dom.js"
-import { fst, snd }   from "../../../../../docs/src/kolibri/stdlib.js";
+import { fst, snd }   from "../../../../src/kolibri/stdlib.js";
 import { forEach }    from "../../../../p6_brodwolf_andermatt/src/stack/stack.js";
 import {
   LOG_TRACE,

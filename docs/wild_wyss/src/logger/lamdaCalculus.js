@@ -3,7 +3,7 @@ export { Pair, snd, fst, LazyIf, Then, Else, True, False, not, and, id, lazy,
   succ, leq, eq, jsNum
 }
 
-import { fst, snd } from "../../../../docs/src/kolibri/stdlib.js";
+import { fst, snd } from "../../../src/kolibri/stdlib.js";
 
 const lazy = x => () => x;
 const toChurchBoolean = value => value ? True : False;

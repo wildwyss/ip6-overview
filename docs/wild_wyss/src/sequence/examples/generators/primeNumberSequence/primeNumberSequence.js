@@ -1,4 +1,4 @@
-import { Just, Nothing }         from "../../../../../../../docs/src/kolibri/stdlib.js";
+import { Just, Nothing }         from "../../../../../../src/kolibri/stdlib.js";
 import { createMonadicSequence } from "../../../util/sequenceUtil/createMonadicSequence.js";
 import { choiceMaybe }           from "../../../../stdlib/stdlib.js";
 import { uncurry }               from "../../../../../../src/kolibri/lambda/church.js";
